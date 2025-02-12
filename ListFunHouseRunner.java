@@ -1,7 +1,8 @@
+package Class.LinkedListParams;
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
+//Name - Joshua Vento-Jones
 
 import java.util.*;
 import static java.lang.System.*;
@@ -39,13 +40,18 @@ public class ListFunHouseRunner
 		ListFunHouse.doubleLast(z);		
 		out.println("\nList values after calling doubleLast\n");							
 		ListFunHouse.print(z);
-		out.println();				
-				
+		out.println();			
+        
+        ListFunHouse.skipEveryOther(z);		
+		out.println("\nList values after skipping every other\n");							
+		ListFunHouse.print(z);
+		out.println();	 
+        
 		ListFunHouse.removeXthNode(z,2);		
 		out.println("\nList values after calling removeXthNode(2)\n");					
 		ListFunHouse.print(z);
 		out.println();			
-				
+			
 		ListFunHouse.setXthNode(z,2,"one");		
 		out.println("\nList values after calling setXthNode(2,one)\n");										
 		ListFunHouse.print(z);
