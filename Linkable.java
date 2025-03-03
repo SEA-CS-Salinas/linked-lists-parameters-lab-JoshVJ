@@ -1,7 +1,7 @@
 //(c) A+ Computer Science
 //www.apluscompsci.com
 
-//Name -
+//Name - Joshua Vento-Jones
 
 public interface Linkable
 {
